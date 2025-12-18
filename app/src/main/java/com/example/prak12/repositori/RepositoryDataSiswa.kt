@@ -4,7 +4,7 @@ import com.example.prak12.apiservice.ServiceApiSiswa
 import com.example.prak12.modeldata.DataSiswa
 
 interface RepositoryDataSiswa{
-    suspend fun getSiswa(): List<DataSiswa>
+    suspend fun getDataSiswa(): List<DataSiswa>
     suspend fun postDataSiswa(dataSiswa: DataSiswa): retrofit2.Response<Void>
 //    suspend fun getStatusSiswa(id: Int): DataSiswa
 //    suspend fun editStatusSiswa(id:Int,dataSiswa: DataSiswa): retrofit2.Response<Void>
