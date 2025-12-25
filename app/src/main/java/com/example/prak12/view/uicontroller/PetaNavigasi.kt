@@ -7,9 +7,15 @@ import com.example.prak12.view.route.DestinasiHome
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.example.prak12.view.DetailSiswaScreen
+import com.example.prak12.view.EditSiswaScreen
+import com.example.prak12.view.route.DestinasiDetail
+import com.example.prak12.view.route.DestinasiEdit
 
 @Composable
 fun DataSiswaApp(navController: NavHostController = rememberNavController(), modifier: Modifier){
@@ -35,8 +41,7 @@ fun HostNavigasi(
             .itemIdArg) {
             type = NavType.IntType })
         ){
-            DetailSiswaScreen(navigateToEditItem = {navController.navigate("${DestinasiEdit.route}
-                    /$it")},
+            DetailSiswaScreen(navigateToEditItem = {navController.navigate("${DestinasiEdit.route}/$it")},
                     navigateBack = { navController.navigate(DestinasiHome.route) })
             }
                     composable(DestinasiEdit.routeWithArgs, arguments = listOf(navArgument(DestinasiEdit.itemIdArg
