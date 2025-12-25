@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.prak12.modeldata.DataSiswa
 import com.example.prak12.repositori.RepositoryDataSiswa
+import com.example.prak12.view.route.DestinasiDetail
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
 import retrofit2.Response
