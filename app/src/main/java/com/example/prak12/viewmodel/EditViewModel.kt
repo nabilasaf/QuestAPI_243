@@ -11,6 +11,7 @@ import com.example.prak12.modeldata.UIStateSiswa
 import com.example.prak12.modeldata.toDataSiswa
 import com.example.prak12.modeldata.toUiStateSiswa
 import com.example.prak12.repositori.RepositoryDataSiswa
+import com.example.prak12.view.route.DestinasiDetail
 import kotlinx.coroutines.launch
 import retrofit2.Response
 
