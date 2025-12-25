@@ -95,7 +95,6 @@ fun EntrySiswaBody(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FormInputSiswa(
     detailSiswa: DetailSiswa,
