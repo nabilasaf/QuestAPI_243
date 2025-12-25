@@ -18,10 +18,6 @@ Tampilan Edit Data
 
 <img width="383" height="800" alt="Screenshot 2025-12-25 092514" src="https://github.com/user-attachments/assets/bd464e9d-32b3-4c2e-be09-1b703ad47307" />
 
-Tampilan Data Setelah di Edit
-
-<img width="381" height="800" alt="Screenshot 2025-12-25 092536" src="https://github.com/user-attachments/assets/b4eaf773-319c-441a-bafc-07daf6f0096f" />
-
 Tampilan Data Ketika Ingin di hapus
 
 <img width="383" height="802" alt="Screenshot 2025-12-25 092600" src="https://github.com/user-attachments/assets/4dd865cd-1baa-43ab-8f80-cecd5618ffbd" />
